@@ -1,0 +1,21 @@
+{
+	"folders": [
+      {
+         "path": "prog2-ueb15"
+      },
+      {
+         "path": "prog2-ueb16"
+      },
+      {
+         "path": "prog2-ueb17"
+      },
+      {
+         "path": "prog2-ueb18"
+      }
+   ],
+   "settings": {
+      "java.project.sourcePaths": [
+         "src"
+      ]
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Launch App",
+         "request": "launch",
+         "mainClass": "de.epilger.App",
+         "projectName": "prog2-ueb0"
+      },
+      {
+         "type": "aws-sam",
+         "request": "direct-invoke",
+         "name": "prog2-ueb0:de.epilger.App::main (java8)",
+         "invokeTarget": {
+            "target": "code",
+            "projectRoot": "${workspaceFolder}/",
+            "lambdaHandler": "de.epilger.App::main"
+         },
+         "lambda": {
+            "runtime": "java8",
+            "payload": {},
+            "environmentVariables": {}
+         }
+      }
+   ]
+}

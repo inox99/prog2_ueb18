@@ -39,7 +39,9 @@ public class App {
       for (Elem e : list.toArray(new Elem[0])) {
          System.out.println(e.toString());
       }
-      list.remove(e2);
+      System.out.println(list.remove(e1));
+      Elem e5 = new Elem("5");
+      System.out.println(list.remove(e5));
       for (Elem e : list.toArray(new Elem[0])) {
          System.out.println(e.toString());
       }

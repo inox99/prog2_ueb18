@@ -75,8 +75,13 @@ public class GList<E> {
    public boolean remove(Object o) {
       for (G g = first; g != null; g = g.next) {
          if (g.e.equals(o)) {
-            g.prev.next = g.next;
+            if (g == first) {
+               first = g.next;
+            } else {
+               g.prev.next = g.next;
+            }
             size--;
+            g = null;
             return true;
          }
       }

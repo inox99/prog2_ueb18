@@ -14,11 +14,17 @@
       },
       {
          "path": "prog2-ueb19"
+      },
+      {
+         "path": "prog2-ueb20"
+      },
+      {
+         "path": "prog2-klausur_ss_2019"
       }
    ],
    "settings": {
       "java.project.sourcePaths": [
-         "src"
+         "main/src"
       ]
    }
 }

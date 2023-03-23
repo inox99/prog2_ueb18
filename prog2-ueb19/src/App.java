@@ -1,3 +1,5 @@
+@SuppressWarnings("unused")
+
 public class App {
    static class Elem {
       String s = "";
